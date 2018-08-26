@@ -1,0 +1,13 @@
+To do:
+
+Mall generator:
+	Shops
+	Hallways
+	Materials
+	
+Gameplay
+	Crashable objects
+	Prefabs set up
+	Stalls
+	
+Look at meadowhall
