@@ -1,0 +1,8 @@
+FileVersion:2
+Type:Static
+Guid:C314E375-4A53-7B2A-8AD8-BA954CE274BA
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/Art/Blueprints/PhysicsStaticMesh_BP.PhysicsStaticMesh_BP
+/Game/Art/Blueprints/SplineBase_BP.SplineBase_BP
+/Game/Art/Blueprints/SplineMesh_BP.SplineMesh_BP

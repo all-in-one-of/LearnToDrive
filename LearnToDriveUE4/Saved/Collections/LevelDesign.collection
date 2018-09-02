@@ -1,0 +1,8 @@
+FileVersion:2
+Type:Static
+Guid:11C7C960-4C49-906D-90C1-EBA0C4153AFF
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/Art/Blueprints/PhysicsStaticMesh_BP.PhysicsStaticMesh_BP
+/Game/Blueprints/Vehicles/SaxoNPC_BP.SaxoNPC_BP
+/Game/Blueprints/Vehicles/SaxoParked_BP.SaxoParked_BP
