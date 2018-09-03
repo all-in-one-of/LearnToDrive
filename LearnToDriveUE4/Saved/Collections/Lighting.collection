@@ -1,0 +1,8 @@
+FileVersion:2
+Type:Static
+Guid:1F6F022D-4EBC-CC90-6959-A8AA6EE8A97E
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/Art/Lighting/DirectionalLight_BP.DirectionalLight_BP
+/Game/Art/Lighting/LightingBase_LV.LightingBase_LV
+/Game/Art/Lighting/PostProcess_BP.PostProcess_BP
