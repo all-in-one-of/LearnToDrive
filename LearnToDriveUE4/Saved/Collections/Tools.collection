@@ -5,4 +5,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 
 /Game/Art/Blueprints/PhysicsStaticMesh_BP.PhysicsStaticMesh_BP
 /Game/Art/Blueprints/SplineBase_BP.SplineBase_BP
+/Game/Art/Blueprints/SplineDecorator_BP.SplineDecorator_BP
 /Game/Art/Blueprints/SplineMesh_BP.SplineMesh_BP
+/Game/Art/Blueprints/SplinePath_BP.SplinePath_BP
