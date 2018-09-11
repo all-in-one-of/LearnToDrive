@@ -4,5 +4,10 @@ Guid:11C7C960-4C49-906D-90C1-EBA0C4153AFF
 ParentGuid:00000000-0000-0000-0000-000000000000
 
 /Game/Art/Blueprints/PhysicsStaticMesh_BP.PhysicsStaticMesh_BP
+/Game/Blueprints/CheckPoint_BP.CheckPoint_BP
+/Game/Blueprints/ConveyerBelt_BP.ConveyerBelt_BP
+/Game/Blueprints/FinishingLine_BP.FinishingLine_BP
+/Game/Blueprints/MoverTool_BP.MoverTool_BP
+/Game/Blueprints/PointsOnHit_BPC.PointsOnHit_BPC
 /Game/Blueprints/Vehicles/SaxoNPC_BP.SaxoNPC_BP
 /Game/Blueprints/Vehicles/SaxoParked_BP.SaxoParked_BP
