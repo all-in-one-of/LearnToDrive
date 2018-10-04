@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 9/3/2018, 22:52:49
+      Time of this report: 10/3/2018, 23:20:13
              Machine name: GEORGE-PC
                Machine Id: {5979476F-FB77-43FF-92AD-4C6234275664}
          Operating System: Windows 10 Pro 64-bit (10.0, Build 17134) (17134.rs4_release.180410-1804)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz (8 CPUs), ~4.0GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16300MB RAM
-                Page File: 17181MB used, 15503MB available
+                Page File: 14963MB used, 17720MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -27,6 +27,7 @@ Microsoft Graphics Hybrid: Not Supported
 DxDiag Notes
 ------------
       Display Tab 1: No problems found.
+      Display Tab 2: No problems found.
         Sound Tab 1: No problems found.
         Sound Tab 2: No problems found.
         Sound Tab 3: No problems found.
@@ -58,9 +59,9 @@ Display Devices
       Display Memory: 16238 MB
     Dedicated Memory: 8088 MB
        Shared Memory: 8150 MB
-        Current Mode: 3440 x 1440 (32 bit) (60Hz)
+        Current Mode: 2560 x 1440 (32 bit) (60Hz)
          HDR Support: Not Supported
-    Display Topology: Internal
+    Display Topology: Extend
  Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
      Color Primaries: Red(0.646008,0.337414), Green(0.328625,0.615734), Blue(0.146984,0.056164), White Point(0.313977,0.329602)
    Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
@@ -69,6 +70,112 @@ Display Devices
           Monitor Id: SAM0BFD
          Native Mode: 3440 x 1440(p) (59.973Hz)
          Output Type: Displayport External
+Monitor Capabilities: HDR Not Supported
+Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
+      Advanced Color: Not Supported
+         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2a800e6ebddb7f48\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2a800e6ebddb7f48\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2a800e6ebddb7f48\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2a800e6ebddb7f48\nvldumdx.dll
+ Driver File Version: 24.21.0013.9731 (English)
+      Driver Version: 24.21.13.9731
+         DDI Version: 12
+      Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
+        Driver Model: WDDM 2.4
+ Graphics Preemption: Pixel
+  Compute Preemption: Dispatch
+            Miracast: Not Supported
+ Hybrid Graphics GPU: Not Supported
+      Power P-states: Not Supported
+      Virtualization: Paravirtualization 
+          Block List: No Blocks
+  Catalog Attributes: Universal:False Declarative:False 
+   Driver Attributes: Final Retail
+    Driver Date/Size: 22/04/2018 01:00:00, 951176 bytes
+         WHQL Logo'd: n/a
+     WHQL Date Stamp: n/a
+   Device Identifier: {D7B71E3E-58C1-11CF-6D55-90311BC2D535}
+           Vendor ID: 0x10DE
+           Device ID: 0x1B81
+           SubSys ID: 0x119D10DE
+         Revision ID: 0x00A1
+  Driver Strong Name: oem21.inf:0f066de361866ac3:Section090:24.21.13.9731:pci\ven_10de&dev_1b81
+      Rank Of Driver: 00D12001
+         Video Accel: 
+         DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  DXVA2_ModeVP9_VLD_Profile0  
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+        D3D9 Overlay: Supported
+             DXVA-HD: Supported
+        DDraw Status: Enabled
+          D3D Status: Enabled
+          AGP Status: Enabled
+       MPO MaxPlanes: 1
+            MPO Caps: Not Supported
+         MPO Stretch: Not Supported
+     MPO Media Hints: Not Supported
+         MPO Formats: Not Supported
+    PanelFitter Caps: Not Supported
+ PanelFitter Stretch: Not Supported
+
+           Card name: NVIDIA GeForce GTX 1070
+        Manufacturer: NVIDIA
+           Chip type: GeForce GTX 1070
+            DAC type: Integrated RAMDAC
+         Device Type: Full Device (POST)
+          Device Key: Enum\PCI\VEN_10DE&DEV_1B81&SUBSYS_119D10DE&REV_A1
+       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
+ Device Problem Code: No Problem
+ Driver Problem Code: Unknown
+      Display Memory: 16238 MB
+    Dedicated Memory: 8088 MB
+       Shared Memory: 8150 MB
+        Current Mode: 1920 x 1080 (32 bit) (60Hz)
+         HDR Support: Not Supported
+    Display Topology: Extend
+ Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+     Color Primaries: Red(0.638195,0.334484), Green(0.309094,0.627453), Blue(0.153820,0.073742), White Point(0.313977,0.329602)
+   Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
+        Monitor Name: Maestro236D
+       Monitor Model: Maestro236D
+          Monitor Id: PKB036E
+         Native Mode: 1920 x 1080(p) (60.000Hz)
+         Output Type: HDMI
 Monitor Capabilities: HDR Not Supported
 Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
       Advanced Color: Not Supported
@@ -521,13 +628,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 51.7 GB
+ Free Space: 28.8 GB
 Total Space: 237.9 GB
 File System: NTFS
       Model: Samsung SSD 840 EVO 250GB
 
       Drive: D:
- Free Space: 229.4 GB
+ Free Space: 237.8 GB
 Total Space: 3815.3 GB
 File System: NTFS
       Model: ST4000DX001-1CE168
@@ -539,7 +646,7 @@ File System: NTFS
       Model: ST2000DM001-1CH164
 
       Drive: F:
- Free Space: 188.2 GB
+ Free Space: 189.8 GB
 Total Space: 1907.6 GB
 File System: NTFS
       Model: ST2000DM001-1CH164
@@ -555,11 +662,11 @@ System Devices
 --------------
      Name: Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #9 - A118
 Device ID: PCI\VEN_8086&DEV_A118&SUBSYS_86941043&REV_F1\3&11583659&0&E8
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0191 (English), 8/18/2018 10:34:12, 375712 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 05:54:29, 375704 bytes
 
      Name: Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #1 - A110
 Device ID: PCI\VEN_8086&DEV_A110&SUBSYS_86941043&REV_F1\3&11583659&0&E0
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0191 (English), 8/18/2018 10:34:12, 375712 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 05:54:29, 375704 bytes
 
      Name: Intel(R) Management Engine Interface 
 Device ID: PCI\VEN_8086&DEV_A13A&SUBSYS_86941043&REV_31\3&11583659&0&B0
@@ -567,7 +674,7 @@ Device ID: PCI\VEN_8086&DEV_A13A&SUBSYS_86941043&REV_31\3&11583659&0&B0
 
      Name: PCI-to-PCI Bridge
 Device ID: PCI\VEN_8086&DEV_1901&SUBSYS_86941043&REV_07\3&11583659&0&08
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0191 (English), 8/18/2018 10:34:12, 375712 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 05:54:29, 375704 bytes
 
      Name: ASMedia USB3.1 eXtensible Host Controller
 Device ID: PCI\VEN_1B21&DEV_1242&SUBSYS_86751043&REV_00\4&27259A83&0&00E0
@@ -580,7 +687,7 @@ Device ID: PCI\VEN_8086&DEV_A145&SUBSYS_86941043&REV_31\3&11583659&0&F8
 
      Name: Intel(R) 100 Series/C230 Series Chipset Family PCI Root Port #20 - A16A
 Device ID: PCI\VEN_8086&DEV_A16A&SUBSYS_86941043&REV_F1\3&11583659&0&DB
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0191 (English), 8/18/2018 10:34:12, 375712 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 05:54:29, 375704 bytes
 
      Name: Intel(R) 100 Series/C230 Series Chipset SMBus - A123
 Device ID: PCI\VEN_8086&DEV_A123&SUBSYS_86941043&REV_31\3&11583659&0&FC
@@ -605,7 +712,7 @@ Device ID: PCI\VEN_8086&DEV_191F&SUBSYS_86941043&REV_07\3&11583659&0&00
 
      Name: Intel(R) 100 Series/C230 Series Chipset Family PCI Root Port #17 - A167
 Device ID: PCI\VEN_8086&DEV_A167&SUBSYS_86941043&REV_F1\3&11583659&0&D8
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0191 (English), 8/18/2018 10:34:12, 375712 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 05:54:29, 375704 bytes
 
      Name: NVIDIA GeForce GTX 1070
 Device ID: PCI\VEN_10DE&DEV_1B81&SUBSYS_119D10DE&REV_A1\4&2D78AB8F&0&0008
@@ -1020,11 +1127,11 @@ Video Encoders:
 Video Effects:
   Frame Rate Converter, CLSID_CFrameRateConvertDmo, 0x1, mfvdsp.dll, 10.00.17134.0001
   Resizer MFT, CLSID_CResizerDMO, 0x1, vidreszr.dll, 10.00.17134.0001
-  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.17134.0228
+  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.17134.0254
   Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.17134.0001
   Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.17134.0001
 Video Processor:
-  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.17134.0228
+  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.17134.0285
 Audio Decoders:
   Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.17134.0081
   MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.17134.0001
@@ -1330,191 +1437,191 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 1509230499885184335, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 1893060195594181302, type 5
+Event Name: BEX
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Overgrowth.exe
-P2: 0.0.0.0
-P3: 10.0.17134.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
+P1: nvcontainer.exe
+P2: 1.10.2366.3209
+P3: 5a9906e4
+P4: NvFBC.dll_unloaded
+P5: 6.14.13.9731
+P6: 5adc2b80
+P7: 000358ee
+P8: c0000005
+P9: 00000008
 P10: 
 
 
 +++ WER1 +++:
-Fault bucket 1340916583216371715, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 2220032131413112725, type 1
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: MirrorsEdgeCatalyst.exe
-P2: 1.0.3.47248
-P3: 10.0.17134.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: nvcontainer.exe
+P2: 1.10.2366.3209
+P3: 5a9906e4
+P4: NvFBC.dll_unloaded
+P5: 6.14.13.9731
+P6: 5adc2b80
+P7: c00001a5
+P8: 000f93ab
 P9: 
 P10: 
 
 
 +++ WER2 +++:
-Fault bucket 1324267311438698426, type 5
-Event Name: WindowsUpdateFailure3
+Fault bucket 1311680790561255580, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.17134.191
-P2: 8024000b
-P3: E933BD62-013E-40BA-B178-C113E67D90F9
-P4: Download
-P5: 1
-P6: 0
-P7: 0
-P8: Update;Update;ScanForUpdatesForUser
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
-
-
-+++ WER3 +++:
-Fault bucket 1366601002915052447, type 5
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.17134.191
-P2: 8024000b
-P3: 957F4955-A551-4B06-A038-C777A16EA7C8
-P4: Download
-P5: 1
-P6: 0
-P7: 0
-P8: Update;Update;ScanForUpdatesForUser
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
-
-
-+++ WER4 +++:
-Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.17134.191
-P2: 8024000b
-P3: 957F4955-A551-4B06-A038-C777A16EA7C8
-P4: Download
-P5: 1
-P6: 0
-P7: 0
-P8: Update;Update;ScanForUpdatesForUser
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
-
-
-+++ WER5 +++:
-Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.17134.191
-P2: 8024000b
-P3: E933BD62-013E-40BA-B178-C113E67D90F9
-P4: Download
-P5: 1
-P6: 0
-P7: 0
-P8: Update;Update;ScanForUpdatesForUser
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
-
-
-+++ WER6 +++:
-Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.17134.191
-P2: 8024000b
-P3: E933BD62-013E-40BA-B178-C113E67D90F9
-P4: Download
-P5: 1
-P6: 0
-P7: 0
-P8: Update;Update;ScanForUpdatesForUser
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
-
-
-+++ WER7 +++:
-Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.17134.191
-P2: 8024000b
-P3: 957F4955-A551-4B06-A038-C777A16EA7C8
-P4: Download
-P5: 1
-P6: 0
-P7: 0
-P8: Update;Update;ScanForUpdatesForUser
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
-
-
-+++ WER8 +++:
-Fault bucket 1688497615177161614, type 5
-Event Name: MoAppHang
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: Microsoft.Windows.ShellExperienceHost_10.0.17134.112_neutral_neutral_cw5n1h2txyewy
-P2: praid:App
-P3: 10.0.17134.1
-P4: 5ace103a
-P5: cbc5
-P6: 2097153
-P7: 
-P8: 
+P1: chrome.exe
+P2: 69.0.3497.100
+P3: 5b9cbc86
+P4: chrome_child.dll
+P5: 69.0.3497.100
+P6: 5b9cbc2b
+P7: 80000003
+P8: 00000000021f8112
 P9: 
 P10: 
 
 
-+++ WER9 +++:
-Fault bucket 1300073678342968511, type 5
-Event Name: RADAR_PRE_LEAK_64
++++ WER3 +++:
+Fault bucket , type 0
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: trialsworldtour.exe
-P2: 0.0.0.0
-P3: 10.0.17134.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: chrome.exe
+P2: 69.0.3497.100
+P3: 5b9cbc86
+P4: chrome_child.dll
+P5: 69.0.3497.100
+P6: 5b9cbc2b
+P7: 80000003
+P8: 00000000021f8112
+P9: 
+P10: 
+
+
++++ WER4 +++:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 193
+P2: 80a
+P3: fffff62f02410020
+P4: 1
+P5: 0
+P6: 10_0_17134
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+
++++ WER5 +++:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 193
+P2: 80a
+P3: fffff62f02410020
+P4: 1
+P5: 0
+P6: 10_0_17134
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+
++++ WER6 +++:
+Fault bucket 1826646721442915064, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: dwm.exe
+P2: 10.0.17134.1
+P3: f5178e97
+P4: dwmcore.dll
+P5: 10.0.17134.254
+P6: 5641a0c9
+P7: c00001ad
+P8: 00000000001ce092
+P9: 
+P10: 
+
+
++++ WER7 +++:
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: dwm.exe
+P2: 10.0.17134.1
+P3: f5178e97
+P4: dwmcore.dll
+P5: 10.0.17134.254
+P6: 5641a0c9
+P7: c00001ad
+P8: 00000000001ce092
+P9: 
+P10: 
+
+
++++ WER8 +++:
+Fault bucket 1893060195594181302, type 5
+Event Name: BEX
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: nvcontainer.exe
+P2: 1.10.2366.3209
+P3: 5a9906e4
+P4: NvFBC.dll_unloaded
+P5: 6.14.13.9731
+P6: 5adc2b80
+P7: 000358ee
+P8: c0000005
+P9: 00000008
+P10: 
+
+
++++ WER9 +++:
+Fault bucket 2220032131413112725, type 1
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: nvcontainer.exe
+P2: 1.10.2366.3209
+P3: 5a9906e4
+P4: NvFBC.dll_unloaded
+P5: 6.14.13.9731
+P6: 5adc2b80
+P7: c00001a5
+P8: 000f93ab
 P9: 
 P10: 
 
