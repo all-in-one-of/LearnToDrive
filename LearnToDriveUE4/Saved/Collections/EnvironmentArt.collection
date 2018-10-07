@@ -4,7 +4,9 @@ Guid:C16D726D-42DD-BDAC-4C8F-FA8CAFB58368
 ParentGuid:00000000-0000-0000-0000-000000000000
 
 /Game/Art/Blueprints/DeformableMesh_BP.DeformableMesh_BP
+/Game/Art/Blueprints/KitMesh_BP.KitMesh_BP
 /Game/Art/Blueprints/PhysicsStaticMesh_BP.PhysicsStaticMesh_BP
+/Game/Art/Modular/CatwalkKit_BP.CatwalkKit_BP
 /Game/Art/Props/Bin_BP.Bin_BP
 /Game/Art/Props/BinWolfCola_BP.BinWolfCola_BP
 /Game/Art/Props/BurgerPeasantStand_BP.BurgerPeasantStand_BP
