@@ -3,19 +3,17 @@
 	"EngineAssociation": "4.19",
 	"Category": "",
 	"Description": "",
-	"Plugins": [
+	"Modules": [
 		{
-			"Name": "PhysXVehicles",
-			"Enabled": true
-		},
+			"Name": "LearnToDriveUE4",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
 		{
 			"Name": "RawInput",
 			"Enabled": true
-		},
-		{
-			"Name": "LowEntryExtStdLib",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/846c2ad08f164f45b0335ecebf85361e"
 		},
 		{
 			"Name": "Substance",
