@@ -6,6 +6,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Art/Blueprints/DeformableMesh_BP.DeformableMesh_BP
 /Game/Art/Blueprints/KitMesh_BP.KitMesh_BP
 /Game/Art/Blueprints/PhysicsStaticMesh_BP.PhysicsStaticMesh_BP
+/Game/Art/Blueprints/TrafficConeDecorator_BP.TrafficConeDecorator_BP
 /Game/Art/Modular/CatwalkKit_BP.CatwalkKit_BP
 /Game/Art/Props/Bin_BP.Bin_BP
 /Game/Art/Props/BinWolfCola_BP.BinWolfCola_BP
