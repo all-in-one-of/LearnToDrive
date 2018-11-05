@@ -1,5 +1,5 @@
 macroScript WeightedNormals
-category: "Calvinatorr_Custom"
+category: "Sumo Scripts"
 tooltip: "Weighted Normals"
 (
 	-- WEIGHTEDNORMALS.MS
@@ -20,170 +20,158 @@ tooltip: "Weighted Normals"
 
 	global wnmodname = "Weighted Normals"
 
-
-	-- returns angle between two vectors
-	fn AngleBetweenVectors v1 v2 =
+	-- Returns angle between two vectors
+	function AngleBetweenVectors v1 v2 =
 	(
 	 return (acos (dot (normalize v1) (normalize v2) ) )
 	)
 
-
-	-- get weighted normals modifier
-
-	fn GetModifier obj =
+	-- Get weighted normals modifier
+	function GetModifier obj =
 	(
-	 for i=1 to obj.modifiers.count do
-	 (
-	  local mf = obj.modifiers[i]
-	  if (classof mf) == Edit_Normals do
-	  (
-	   if (mf.name == wnmodname) then (
-		return mf
-	   ) else (
+		for i=1 to obj.modifiers.count do
+		(
+			local mf = obj.modifiers[i]
+			if (classof mf) == Edit_Normals then
+			(
+				if mf.name == wnmodname then
+					return mf
+			)
+			else
+				return undefined
+		)
+		
 		return undefined
-	   )
-	  )
-	 )
-	 return undefined
 	)
 
 
 	-- generates weighted normals
-	fn GenWeightedNormals obj =
+	function GenWeightedNormals obj =
 	(
-	 -- filter
-	 if (superClassOf obj) != GeometryClass do return false
-	 
-	 -- add mesh modifier
-	 if (classOf obj) != Editable_Mesh do
-	 (
-	  addModifier obj (Edit_Mesh())
-	 )
-	 
-	 -- detect existing modifier
-	 local mf = GetModifier obj
-	 
-	 -- modifier not found, create one
-	 if mf == undefined do
-	 (
-	  addModifier obj (Edit_Normals())
-	  mf = obj.modifiers[#Edit_Normals]
-	  mf.name = wnmodname
-	 )
-	 
-	 -- workaround for 3dsmax bug
-	 select obj
-	 max modify mode
-	  
-	 -- build face area array
-	 local facearea = #()
-	 facearea.count = obj.numFaces
-	 for i=1 to obj.numFaces do
-	 (
-	  facearea[i] = (meshop.getFaceArea obj i)
-	 )
-	 
-	 -- build face angle array
-	 local faceangle = #()
-	 faceangle.count = obj.numFaces
-	 for i=1 to obj.numFaces do
-	 (
-	  local f = getFace obj i
-	  local v1 = getVert obj f[1]
-	  local v2 = getVert obj f[2]
-	  local v3 = getVert obj f[3]
-	  local a1 = AngleBetweenVectors (v2-v1) (v3-v1) -- todo: optimize
-	  local a2 = AngleBetweenVectors (v1-v2) (v3-v2)
-	  local a3 = AngleBetweenVectors (v1-v3) (v2-v3)
-	  faceangle[i] = [a1,a2,a3]
-	 )
-	 
-	 -- get number of normals
-	 local normNum = mf.GetNumNormals()
-	 
-	 -- allocate array
-	 local norms = #()
-	 norms.count = normNum
-	 for i=1 to normNum do
-	 (
-	  norms[i] = [0,0,0]
-	 )
-	 
-	 -- loop faces
-	 for i=1 to obj.numFaces do
-	 (
-	  -- get face normal
-	  in coordsys local n = getFaceNormal obj i
-	  
-	  -- accumulate
-	  for j=1 to 3 do
-	  (
-	   local id = mf.GetNormalID i j
-	   norms[id] = norms[id] + (n * facearea[i] * faceangle[i][j])
-	  )
-	 )
-	 
-	 -- set normals
-	 for i=1 to normNum do
-	 (
-	  -- make explicit
-	  mf.SetNormalExplicit i explicit:true
-	  
-	  -- set normal vector
-	  mf.SetNormal i (normalize norms[i])
-	 )
+		-- filter
+		if (SuperClassOf obj) != GeometryClass do return false
+		
+		Undo Off()
+		max modify mode
+		
+		--DisableSceneRedraw()
+		--Undo Off()
+		--SuspendEditing()
+		
+		if (ClassOf obj) != Editable_Mesh do AddModifier obj (Edit_Mesh()) -- Add EditMesh modifier
+		local mf = GetModifier obj
+		
+		-- Workaround for 3dsmax bug
+		Select obj
+		 
+		-- build face area array
+		local facearea = #()
+		facearea.count = obj.numFaces
+		for i=1 to obj.numFaces do
+			facearea[i] = MeshOp.GetFaceArea obj i
+		 
+		-- Build face angle array
+		local faceangle = #()
+		faceangle.count = obj.numFaces
+		for i=1 to obj.numFaces do
+		(
+			local f = GetFace obj i
+			local v1 = GetVert obj f[1]
+			local v2 = GetVert obj f[2]
+			local v3 = GetVert obj f[3]
+			local a1 = AngleBetweenVectors (v2-v1) (v3-v1) -- todo: optimize
+			local a2 = AngleBetweenVectors (v1-v2) (v3-v2)
+			local a3 = AngleBetweenVectors (v1-v3) (v2-v3)
+			faceangle[i] = [a1,a2,a3]
+		)
+		
+		--DeleteModifier obj 1
+		
+		-- modifier not found, create one
+		if mf == undefined do
+		(
+			AddModifier obj (Edit_Normals())
+			mf = obj.modifiers[#Edit_Normals]
+			mf.name = wnmodname
+		)
+		
+		-- get number of normals
+		local normNum = mf.GetNumNormals()
+		
+		-- allocate array
+		local norms = #()
+		norms.count = normNum
+		for i=1 to normNum do
+			norms[i] = [0,0,0]
+		
+		-- Loop faces
+		for i=1 to obj.numFaces do
+		(
+			-- get face normal
+			in coordsys local n = GetFaceNormal obj i
+			 
+			-- accumulate
+			for j=1 to 3 do
+			(
+				local id = mf.GetNormalID i j
+				norms[id] = norms[id] + (n * facearea[i] * faceangle[i][j])
+			)
+		)
+		
+		DeleteModifier obj 2 -- Delete Edit_Mesh modifier
+		
+		-- set normals
+		for i=1 to normNum do
+		(
+			mf.SetNormalExplicit i explicit:true
+			mf.SetNormal i (normalize norms[i])
+		)
+		
+		Undo On()
 	)
 
 
 	--- GUI ------------------------------------------------------------------------
 
-
-	-- close existing floater
-	if WeightedNormals != undefined do
-	(
-	 closeRolloutFloater WeightedNormals
-	)
-
-	-- create floater
+	/*
+	-- Close existing floater
+	if WeightedNormals != undefined do CloseRolloutFloater WeightedNormals
 	WeightedNormals = newRolloutFloater "Weighted Normals" 180 150
 
-
-	-- generate rollout
+	-- Generate rollout
 	rollout rWNGenerate "Weighted Normals"
 	(
-	 button cmdCreate "Generate" width:140
-	 
-	 on cmdCreate pressed do
-	 (
-	  -- copy selection (can't copy arrays in 3dsmax)
-	  local sel = #()
-	  for i=1 to selection.count do
-	  (
-	   sel[i] = selection[i]
-	  )
-	  
-	  -- create selection list
-	  for i=1 to sel.count do
-	  (
-	   GenWeightedNormals sel[i]
-	  )
-	  
-	  -- restore selection
-	  selection = sel
-	 )
+		Button cmdCreate "Generate" width:140 height:25
+
+		on cmdCreate pressed do
+		(
+			local sel = for s in selection collect s -- Buffer selection
+
+			for i=1 to sel.count do
+				GenWeightedNormals sel[i]
+
+			-- Reset to previous selection
+			ClearSelection()
+			for s in sel do SelectMore s
+		)
 	)
-	addRollout rWNGenerate WeightedNormals
+	AddRollout rWNGenerate WeightedNormals
 
-
-	-- about rollout
+	-- About
 	rollout rWNAbout "About"
 	(
-	 label lab1 "Weighted Normals 1.0.0"
-	 label lab2 "by Martijn Buijs"
-	 label lab3 "www.bytehazard.com"
+		Label lab1 "Weighted Normals 1.0.0"
+		Label lab2 "by Martijn Buijs"
+		Label lab3 "www.bytehazard.com"
 	)
-	addRollout rWNAbout WeightedNormals
+	AddRollout rWNAbout WeightedNormals*/
+	
+	local sel = for s in selection collect s -- Buffer selection
+	for s in sel do GenWeightedNormals s
 
-
-	-- END OF FILE
+	-- Reset to previous selection
+	ClearSelection()
+	for s in sel do SelectMore s
 )
+
+Macros.Run "Sumo Scripts" "WeightedNormals"
