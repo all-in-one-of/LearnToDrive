@@ -155,7 +155,11 @@ tooltip: "Weighted Normals"
 				for j = 1 to 3 do
 				(
 					local id = currentModifier.GetNormalID i j
-					normals[id] = normals[id] + (n * (Pow faceAreas[i] CoplanarExponent.value) * faceAngles[i][j])
+					
+					local sign = 1.0
+					if CoplanarExponent.value < 0 then sign = -1.0
+						
+					normals[id] = normals[id] + (n * (Pow faceAreas[i] CoplanarExponent.value) * sign * faceAngles[i][j])
 					--Print ("	Vert: " + (j as string) + " | Angle: " + (faceAngles[i][j] as string))
 				)
 			)
