@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Octopus>
+  <ColorProperties>
+    <MouseOver A="255" R="255" G="200" B="127" />
+    <IconProperties IconHueShift="0" IconSaturation="1" />
+  </ColorProperties>
+  <ShapeProperties roundness="2" width="160" height="24" />
+  <LayoutProperties xPosMod="0,65" yPosMod="2" radiusMod="140" CRMod="0" />
+  <OctopusTemplate>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="smooth5.png" rightIcon="None" iconOnly="False" buttonText="Smooth 5°">
+      <ActionData active="True" type="0">
+        <Command>$.autoSmoothThreshold = 5
+polyop.autosmooth $
+redrawViews()</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="smooth10.png" rightIcon="None" iconOnly="False" buttonText="Smooth 10°">
+      <ActionData active="True" type="0">
+        <Command>$.autoSmoothThreshold = 10
+polyop.autosmooth $
+redrawViews()</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="smooth15.png" rightIcon="None" iconOnly="False" buttonText="Smooth 15°">
+      <ActionData active="True" type="0">
+        <Command>$.autoSmoothThreshold = 15
+polyop.autosmooth $
+redrawViews()</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="smooth30.png" rightIcon="None" iconOnly="False" buttonText="Smooth 30°">
+      <ActionData active="True" type="0">
+        <Command>$.autoSmoothThreshold = 30
+polyop.autosmooth $
+redrawViews()</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="smooth45.png" rightIcon="None" iconOnly="False" buttonText="Smooth 45°">
+      <ActionData active="True" type="0">
+        <Command>$.autoSmoothThreshold = 45
+polyop.autosmooth $
+redrawViews()</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="smooth60.png" rightIcon="None" iconOnly="False" buttonText="Smooth 60°">
+      <ActionData active="True" type="0">
+        <Command>$.autoSmoothThreshold = 60
+polyop.autosmooth $
+redrawViews()</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="smooth90.png" rightIcon="None" iconOnly="False" buttonText="Smooth 90°">
+      <ActionData active="True" type="0">
+        <Command>$.autoSmoothThreshold = 90
+polyop.autosmooth $
+redrawViews()</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="smooth180.png" rightIcon="None" iconOnly="False" buttonText="Smooth 180°">
+      <ActionData active="True" type="0">
+        <Command>$.autoSmoothThreshold = 180
+polyop.autosmooth $
+redrawViews()</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre>macros.run "PolyTools" "SharpEdges"</CommandPre>
+        <CommandPost>numFaces = polyop.getNumFaces $
+polyop.setFaceSelection $ #{1..numFaces}
+macros.run "rapidTools" "rapidNGonSolver"
+modPanel.addModToSelection (TurboSmooth ()) ui:on
+</CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+  </OctopusTemplate>
+  <OctopusIcons>
+    <OctopusIcon leftIconName="smooth5.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAD9SURBVDhPY/j//z9F
+GKsgKRirICkYqyApGKsgKRirICkYqyApGKsgKRirICkYqyApGKsgKZiBh5OV6dvBKpvfR2sjfx2p
+cQViYyBWBWIJIOYDinP+OVbL8vdYHcP/E/UMGMBEU4r7x+HqNUDJf0D8E4i/APGrf8frHgLxxb/H
+644ANW8CGjL3z9HadqCBxUB2HFDOCogZGdTkhEU/76vcAdT0nwT8D6h5E9BAZgYBHnaR43OSE+6s
+yW0G4iYgbry7Nq/p3rq8JiBdD8R1QHbd/fX5dQ/W59c+2lhQ9WZnafnXA1UB73eXM4J8wQXEAkAs
+SCQGqQXpYWZgYGAAAFroqbZ7NkxwAAAAAElFTkSuQmCC</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="smooth10.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAEWSURBVDhPY/j//z9F
+GKsgKRirICkYqyApGKsgKRirICkYqyApGKsgKRirICkYqyApGASYvhyotPxzrDbv99FaFyBWB7KF
+/h6rYwHLEgKMjAwcH/dWtPw/Uf8HiH8A8et/x+uuAQ1YBzSo/c/R2nigoZZALAvkcwPlmKBaIYCL
+nZXvyrLMpHe7y5Z+O1h1GKjxFdCQf0D8H4r/AvFXoMZHQHwaKL8YiGuBbBewYbrKYsKf91VuASr6
+DcUgl8A048RAzduArmJlEObnFDyzIDX2/vr85nvr8ppvr8ltvLMmtxmEb6/ObQTz1+Y23l2b1wCU
+r3u4oaDmzc7Siq8HqgJf7yhlBPsCiAWAWJBIDFIL0sPMwMDAAAC7Ro+foCyv6AAAAABJRU5ErkJg
+gg==</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="smooth15.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAFCSURBVDhPY/j//z9F
+GKsgKRirICkYqyApGKsgKRirICkYqyApGKsgKRgO/p+oh7JIB4yvd5Sq/D1W1/TnWK0/kFYEYjao
+HFGA/dHGgjCgCz4B8W8gfvzveN1OoCENQANdgLQkkM8EVYsVcKb4GykcnJ4Q8Hxrcfu3g1UgzQ+A
+Bv0E4u9AzXf+Hq9bDhTLAxpoAqQFgXxGqF4GBkFeDvYzC1KtLy/NDDu7MC3i9PzUmBsrswtf7SiZ
+8fNwzQWgIb+A+D8UfwIaeA5owDQg7Qs0jInBxVSR58eh6g1ASZDzQRikAYZBfJhmFAw0YNfvo7Vs
+DKICXAIXl2REP9lU2Ph4U2HDww0FdQ825DfcW5fXcGdNbuNtIAbSTXfX5rUAccP99fnVQNeVfdlf
+GfhsazHYK1xALADyDZEYpBakh5mBgYEBAK8aRjel+lDZAAAAAElFTkSuQmCC</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="smooth30.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAGFSURBVDhPY/j//z9F
+GKsgKRirICkYqyApGKsgKRgF/D1exwplkgwYd06M4fl7rK793/G6YCDNCRUnGrAemZVkCNR48/+J
++m9AQ1YDXWMMpJmg8gQBOw8nm/Cm7gjnL/srVwAN+QzEz4AGdAANUoSqwQuYgZgbiEVMNCTlzy5M
+i/x5uGYf0JBfQHwVaFA60CABsEo8AORcdiDmA2LRFH8j9UcbC8r/HKu9ATTkJ9CQvUBDvIHe5AAp
+xgdArgEFIshG8enl3uZvd5VNAhrwCmjQJyC9AoiNgJgRpJjBzlCe6euBKkOgkz2B2OPH4Wo3IN8d
+qMnr/vp8/wuL00NPzk2Jeb61eALQ9pdAQ/4D8VOgAQ1APheDh6UKN1DjeqDgbyAG+RmGfyKxQXIg
+/A+IQQb8Bxpw/NeRGl4GUQEugYtLMqKfbCpsfLypsAHo71ogXQfCIPZDIH6wPr/h3rq8pttrchvv
+rs2re7GtuOLT3orAMwtSwd7gAmKQfwWJxCC1oBgDhhUDAwBlqs2DCgxFwAAAAABJRU5ErkJggg==</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="smooth45.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAFkSURBVDhPY/j//z9F
+GKsgKRirICkYA3BzsjL+OVpr+fd4nSxUiCTAfG1Ftt6/43W3gXgrOYawJ/oYyHzYUz75/4n630BD
+1gMNkYHKEQVYgVjQ305d+f2e8hlQQzYDDZGDSBMGjEDMAcTC4S7aqu92lU0CGvILaMgGUlwCN8TP
+Vl0F6B2QS0CGbAEaIg1WQQSAG+Jrq6YC9M50qCFryfJOhKu2GtAlM4GG/AQasg5oiBRYBREAboiP
+jZry+93l06ABuwloiDxYhZ2hPNPXA1WGPw/XeAKxBxC7wfCPw9XuX/ZXejzbUuR/aUlG+MUlGem/
+jtScAxryH2jIzr/H6sQYPCxVuIGK14NMBvkTCf9EYoPkYPgPEIMMuAjUJ84gKsAlADQ5+smmwsbH
+mwobHm0sqAXSdSAMYkMxiN1wb11ew501uTVPtxRVAL0TuKwpCORFBi4gFgBiQSIxSC03EDMzMDAw
+AAAnInD1oVKf+AAAAABJRU5ErkJggg==</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="smooth60.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAGLSURBVDhPY/j//z9F
+GC94tqWI+++xOksgZocKEQ0YtZVE2b4eqCr5f6L+zb/jdSFQcaIBExDzHJqR4AzU/Ozf8fozf4/X
+iUOkiAMgA7g52FgkX+8o7QO64g/QoFIgDZElErACsVB7lrPR76O154GabwINUYNIEQcYgZgLiMXv
+rs3LBxrwC2hAPzBAWcCyRAKQYgE/W3Xl74eqdwINeQc0xAEiRRwAuYIDiEVPz0+NABrwEWjAZmCA
+coNliQTMQMynKisk+3lf5TKgId+BhkRBpIgHoIQksqk7whVo+2OgAafIiVYeFmYmyZfbSzqArgBF
+axUwQBkY7AzlmYApzvDn4RpPIPYAYjck7A7CPw5Ve73ZWep7ZVlm2M1VOYVAza+AhjwEukKTwcNS
+hRuoaD1Q4DcQ/0LCP5HYIDlk/B9oyDWgPmUGUQEugYtLMqKfbCpsfLypsOHRxoJaIF0HwiA2BIP5
+9Q82FNQD00TN081FVW93lYX05rmBvAZOLAJALEgkBqkFRSMwjTAwAADkvBkbm5KwuQAAAABJRU5E
+rkJggg==</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="smooth90.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAFHSURBVDhPYyAVqMsJ
+M/w8XMP891gdM1SIJMB4bmGaCFDzrH/H66rJMYRtWVOQKlDzQyDeAnIJVJxowNmd66oDtPkhEG/5
+drCKZAO4WjOcdP8cq33451jd5m8HyDCgOc1R58/R2ntAQzYBXcACFScacDamOuiAXAD0wrbvB6tJ
+N6AlHeyFR0AvgMKAdAOa0x1BBjwA4s3kBCJnVbyNFigMgF7YTpYLmkCBSEkYgGMB6AWgAVvBXrAz
+lGf6eqDKEJiqPIHYA4jdkLA7FHt+P1Tt9WRzof/1ldkZQM0vQYEI1MfM4GGpwg1UsP7/ifrfQPwL
+Cf9EYoPkYBjE/w9yAdgAUQEugYtLMqKfbCpsfLypsOHRxoJaIF0HwiA2BIP59Q825NfdX5df+2Jb
+ceWnfRWBr3eUMoL8xQXEAkAsSCQGqQXpAUYhAwMAth7rtmOBJkkAAAAASUVORK5CYII=</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="smooth180.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAADDSURBVDhPY/j//z9F
+GKsgKRirICkYqyApGKsgKRirICkYqyApGKsgKRirICkYqyApGKsgKRirICmYwc5QnunrgSrDn4dr
+PIHYA4jdkLA7FIPkYPIef47Wev07Xmf491gdA4OHpQo3UHD9/xP1v4H4FxL+icQGycEwWAxowAag
+QcwMogJcAheXZEQ/2VTY+HhTYcOjjQW1QLoOhEFsCAbz66FyVW93lZUDXe33cW8FIwMQcAGxABAL
+EolBakF6mBkYGBgA5ci5gugoZcUAAAAASUVORK5CYII=</leftIcon>
+    </OctopusIcon>
+  </OctopusIcons>
+</Octopus>

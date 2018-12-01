@@ -286,7 +286,6 @@
     <shortcut fVirt="11" accleleratorKey="65" actionID="40021" actionTableID="0" />
     <shortcut fVirt="3" accleleratorKey="66" actionID="40063" actionTableID="0" />
     <shortcut fVirt="11" accleleratorKey="66" actionID="40205" actionTableID="0" />
-    <shortcut fVirt="3" accleleratorKey="67" actionID="40068" actionTableID="0" />
     <shortcut fVirt="7" accleleratorKey="67" actionID="40185" actionTableID="0" />
     <shortcut fVirt="3" accleleratorKey="69" actionID="50002" actionTableID="0" />
     <shortcut fVirt="3" accleleratorKey="70" actionID="310" actionTableID="0" />
@@ -580,10 +579,11 @@
     <shortcut fVirt="19" accleleratorKey="220" actionID="EPoly_Shrink`Editable Polygon Object" actionTableID="647394" />
     <shortcut fVirt="11" accleleratorKey="220" actionID="EPoly_Grow`Editable Polygon Object" actionTableID="647394" />
     <shortcut fVirt="3" accleleratorKey="79" actionID="ShowEndResultToggle`Ribbon - Modeling" actionTableID="647394" />
-    <shortcut fVirt="3" accleleratorKey="90" actionID="SuperSmartCreate`Pedro Scripts" actionTableID="647394" />
+    <shortcut fVirt="3" accleleratorKey="90" actionID="Views`Octopus" actionTableID="647394" />
     <shortcut fVirt="11" accleleratorKey="50" actionID="EPoly_Select_Loop`Editable Polygon Object" actionTableID="647394" />
     <shortcut fVirt="11" accleleratorKey="51" actionID="EPoly_Select_Ring`Editable Polygon Object" actionTableID="647394" />
     <shortcut fVirt="19" accleleratorKey="76" actionID="EPoly_Select_Loop`Editable Polygon Object" actionTableID="647394" />
     <shortcut fVirt="19" accleleratorKey="82" actionID="EPoly_Select_Ring`Editable Polygon Object" actionTableID="647394" />
-    <shortcut fVirt="3" accleleratorKey="86" actionID="Viewports" actionTableID="1261319018" />
+    <shortcut fVirt="3" accleleratorKey="67" actionID="ModelingSpinner`Octopus" actionTableID="647394" />
+    <shortcut fVirt="3" accleleratorKey="86" actionID="create`Octopus" actionTableID="647394" />
 </ADSK_KBD>

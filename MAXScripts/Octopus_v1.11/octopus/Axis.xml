@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Octopus>
+  <ColorProperties>
+    <MouseOver A="255" R="206" G="254" B="36" />
+    <IconProperties IconHueShift="0" IconSaturation="1" />
+  </ColorProperties>
+  <ShapeProperties roundness="7" width="160" height="24" />
+  <LayoutProperties xPosMod="0.5" yPosMod="2" radiusMod="140" CRMod="0" />
+  <OctopusTemplate>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="move_right.png" rightIcon="None" iconOnly="False" buttonText="Move Right">
+      <ActionData active="True" type="0">
+        <Command>macros.run "Axis" "AxismoveFarRight"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="align_horizontal.png" rightIcon="None" iconOnly="False" buttonText="Align Horizontally">
+      <ActionData active="True" type="0">
+        <Command>macros.run "Axis" "AxismoveAverageHorizontal"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="move_bottom.png" rightIcon="None" iconOnly="False" buttonText="Move Bottom">
+      <ActionData active="True" type="0">
+        <Command>macros.run "Axis" "AxismoveFarBottom"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="align_vertical.png" rightIcon="None" iconOnly="False" buttonText="Align Vertically">
+      <ActionData active="True" type="0">
+        <Command>macros.run "Axis" "AxismoveAverageVertical"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="move_left.png" rightIcon="None" iconOnly="False" buttonText="Move Left">
+      <ActionData active="True" type="0">
+        <Command>macros.run "Axis" "AxismoveFarLeft"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="rotate_CCW.png" rightIcon="None" iconOnly="False" buttonText="Rotate CCW">
+      <ActionData active="True" type="0">
+        <Command>macros.run "Axis" "AxisrotateCounterClockWise"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="move_top.png" rightIcon="None" iconOnly="False" buttonText="Move Top">
+      <ActionData active="True" type="0">
+        <Command>macros.run "Axis" "AxismoveFarTop"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="True" leftIcon="rotate_CW.png" rightIcon="None" iconOnly="False" buttonText="Rotate CW">
+      <ActionData active="True" type="0">
+        <Command>macros.run "Axis" "AxisrotateClockWise"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+      <ActionData active="False" type="1">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
+      </ActionData>
+    </OctopusProperties>
+  </OctopusTemplate>
+  <OctopusIcons>
+    <OctopusIcon leftIconName="move_right.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEJSURBVDhPpZHPSoJBFMXPa7jqIXqBJPVL
+lNr0AoK+QS3FnX9CadfiK/oDQovABFctAhdJokS6EMtFWYSvcbz3UxNkphwc+M2dOXAOc+eC5EYY
+RReMogtG0QUcnK7HvpCswI+XQanBXXVjqo1oCXz/qXK3oFcGIZp6752A0SIYsSGGcB7M3oGXTbA3
+Pv8NwZ6Y+5MMu98pdr7stMcpPn+m6T+BFy2w/ZGnehGX7XYA3vTB656dq1cxvoB+d1YfR0ezgEgW
+NQ3xpD8bMW1DWsg9SNgb2BhmgrbkB7YFbM0P/+JJUH10yNjcHHzi6rj+YucYZwkZ48KsmusKCfqa
+5dJRbIJRdMEorg8xBRNtMuGwNxZkAAAAAElFTkSuQmCC</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="align_horizontal.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAFkSURBVDhPpVNLSwJh
+FL1/pJWLaBEIs21lo6PZLsJNBC2jlbSNsrIsi6BNi0gSF7notawkSOxhOAXaE5IeElRIRbVoe7pf
+foriyCgeODDz3XvP3HO/OwSgKRoeNkIBq3uOfpyzBHugQGeQ1v8jdUJxcXH8uwMnnx5kvrzYSnuh
+Bigm46ZQXEHC2ith9Z6wckM4yw8hqg8IkWeZI2BxjFO8a54KfZfB2s0WRBfqNGE0RghdE5Iv/Yic
+9gpLTzJPcXBOKjsJdaZapIh2u5/exoTIBSGR60HoyI1OFuZu4NskhA8IenYBNn6XNVVQ+pZa4Nuh
+38VDtqUTIilmkp8TbHGfxXcJl4/L0Ni6rKlAUwJt6gTdNmqh1TlFGY0HZPMTRvb4K1cVQ8zJvJpD
+LO3B8YcH5+9e6PnB4jWW70LNayztQfiBeUfYTg+L4qiMm8KisbLoQuPWBFlwQ8bMYfSDNELDw/oJ
++gM44bCkMSnEWwAAAABJRU5ErkJggg==</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="move_bottom.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEdSURBVDhPpZK9SgNRFITPe/gGtttZx6gk
+qdL4BnmDlCksgn/pUxh119YihY0EEVEJCAlIIiQmAQWxyEuMZ3aPht1TmR04MPe7c+culxUAqflV
+uSXdnWMBh96wzztgKurB72Ub43ktLjHs8w6YCoeC968mwp6AZYZ93gETC0afdVze5ygYfNQQPuYo
+6C/2EfX1IY/WKNjWgof5HqKXHAW92RauhmsWFLXgZraJ6FUL1Bv2eQdMhabgerqBcCygN+zzWVBp
+yTNvb9wKOiPBuQ49v4J72XxqwSmdCrqTKp6WVZy9STz0ZNzL5lOLGIgEvK1xJ7hYJENv7xC4vAOJ
+gl09cKA/EYeejBsu78BKQelEwKFP0P8KKB78O0yl85AfpGsV1MCpaagAAAAASUVORK5CYII=</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="align_vertical.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGWSURBVDhPfVI5SwNhEJ0/YpVCLATB1irm
+NHYiaUSwFKtgK57RaBTBxkKyJFiYwqtUg2CIJ4lC4gkGjyCoBBW1sH3OfPu5YJLNgwdv58283fn2
+IwCKteCNEoT68R+sObsAZ4Rw8bCkKFqXLdQNcE0TcsV5GNukKFpq2lawDeiYI2SLE0jsEWK7JkVL
+TTzdZh/gGaO0Z4Ywuk6IZ0yKlpp4us0+gOFgtrp47+Vjk6Klpj2FegEK7VM8nDUpWpct1A1wR+jR
+OAggnuMVmKK5VtK2gm0Af+7T8kk3MqUuLOyTomipsZfSbbUDpCGZ68Pxcy+Mcz68LfoRipaaeNyT
+rBngi9LqRj6E0/IAjCvCSIrQs9igKDp2yfeh3I/N/CD8UVqrCuAdUfgMIXZNGOYBd5he+UVy8q2u
+cboZ2iGcvYWQuOXrzZeqZsDRRxDxO/5t5qk3y6dqNDnDhMP3IBL3NgE+vijprzasvBD8rPWgBW+F
+XxUQmKVvMXg/dLLWcxZ8k1T48718I6sCGC1MtbPWlWhk/vkOcw70C4tGsKRnj69dAAAAAElFTkSu
+QmCC</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="move_left.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEVSURBVDhPpZLNSkJRFIXXuzjoAXqC8Of6
+UzrxBYR8g6YRDbQfLOcmZSA4aCI4ahA4MBJF9A6ivIP8IXqN1d4nhIhz6x7a8HHOWdy12GefC5L/
+wiq6YBVdsIouoFAH8sLuBZCpgbIGelY9CsacrQHxE3D+3mbyDMxJ2N7l7+QFE6Afq3m2vOJ1Hzy8
+A3eqYEK0xKmdpOCdm267SMtm+FZl8xFsDMCnxT6HyxJHq3DG6xL9jzLVawIeggM2JxIwhllvpmBr
+Fs6tD3aewYwGSG1ru72XMluv4NG9tClXSGmbMo8w1Owdo2+GqCEpCekGRXpi1HNEYmaSm5CcPGO6
+Av/7M/3Fz9LUra9txLL9XS5YRResYnSIT4hOF98a/GNJAAAAAElFTkSuQmCC</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="rotate_CCW.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIzSURBVDhPlZJNSNNxGMe/1whU6OVgXepQ
+N8UGQejBFPfi1iGCOvSCkCAYJL1QEGiQipvOBhGozDXHyImsQxAVHZSojFiWKbNZMVihs26dyi7f
+vr9trP2VHfrCw4/f83+ez+95+YNkzkrl8qPX7sOvZi/YNACaU3fKP3VsGNsLYfm8zQAFrl69f5Av
+kzeYyY7JRnOnuRu/AXmG0WVitwAcSg48beJKdoAzy27GE9V8kNiTO83d+M13xVGVOCyA1iH0Xprc
+x7ffOhh7X8HbM2BbEDw9kj8Duk8tVHB+tYOXY/vZ6scfC8Dhxe9HqeOcTFUyMAe6/aCtDVcOOHDy
+SCf6VDbvvAHj6Uo+S5+gHlRaCcCuQT1Zq2P4k14MgyZJXVXJtsl21l+E1zWIXPnm9AzhpwWgCjid
+ruJECjw7Dh5uR4OZS4l2yWwlVmsFiBxNghOLqiCktfWhU0FFqYV1rVEZ/2QBOH3YuPtcAPU5PV/P
+cyN76RhERyEWLaowuRZls/6LgssKaLyOYLtejmqA4Rfg4wU3+x8eNdNmYz/YHQfvyb+Y8RUhFoBU
+7fTixzUFRt6BoQQ4m3Zz6ftNLq338EP2Fsdeg0FVOJe5QKcGuRlgVGMg5yNamQCRz6pmRTANdnxZ
+yZpR6KOqS3vKAoxqGrow5PJiw65ST42CZ9Ra96zm8xWMfaljS74FWzmA0W7ZIVlxbaqM3lc7aNZd
+8OXzygC2yPw4nvwac8lG/wWQamXFZCOS+AtCh7mKXdfBRwAAAABJRU5ErkJggg==</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="move_top.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEiSURBVDhPnVNLSsRAFHxLT+ABFFwLs3ch
+Y4LjCbyCl3BQwQ/iARwU0wvdiAs3IqgwuNEZRVBciIGJs/EY5av0A828jXRBQXW9SiXdSQRAg3+R
+7wlIW9ZweWcYFrcFb9VhTWqzfd4ZivaOYPh5gKNrqUlN718FnX3BoNzASV/Qu4ukHpSb4Gwy31iQ
++ZY8Z7uC9QvB8X1kVzU9zibzjUVtiMwpW9z303gNxaOgHc+gxZnLO8PAPT98rSIM493N9nlnGJa0
+oF+toHjRR08tuB0toHhNLMi04Go0j/CuBfYKCZd3hiHTg7usZhE+EgtyLTivphHK1AK96HQ8hVAl
+FizrwZ19R1Kb7fPOMGRduenon0hSm+3zzvjFjJJfH0ldo5mH/ACCjBYT47hY/gAAAABJRU5ErkJg
+gg==</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon leftIconName="rotate_CW.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJDSURBVDhPfVNLaFNRED2CGxX7Q7LQlQq6
+8xewFLqQVpLm40KFduEm2pZAXBQ/KBSpSCNJk9RgLRqNpQk1bcVUN6LioiJGrcbav6YWC1JjqjtX
+WjfHuS8f+kzrgWGYeXfOPTN3Hkgij0Od2GAJYNDUAdZ6wRpP1kv8S/LtuWMaVJ1Wmyewd6JFFZ6N
+7WRippVfMjfFQppXscrL97R2WKAjkJvNZikOPqnhbMbD4Q82xpObOZTconkVq7z6Luc0Eh2BNYA/
+pwe2cTTt5OB4CYPDoCMMHruR9VckHhgr4bsFJ0/1b6XVj3Y9gR98On+U8flSdr0BpR1WncTlHWbU
+Gx04YwuIuldgf6qUD1OHafbit47A7sdPiw9KHpXf34zzonKT2DqxsioX3McjYO8n8HF6L00yXB2B
+YLeYcZmVixVQ2YTq+utgJAXe/VzGI13FBAVYpB2RvJgLNZjccDl6hGAS7JsRpfK0KxLUirTpbxGe
+CG8vJOt8cDZ0V/DBuJURmU/3c2mzA0tFBAel+EXKw6G3Bl64Bx5wZ2dy8X4ln31sZDSxhn0vwSZR
+Ut0Cn45ADe7RtEuesJyh1+BE5hKnFts49b2NIwvNjIyC0ffguThY58UPuc9QRHBnzMbY3Ebekh7D
+Yj0ysN5Z6XsOvJoEG6OF4l1KsY5AYDTJYK6N7GHs63oGJ2SJboMNIfkPpDWLF0si258vVviXQMGo
+putNVNDmW6uSy591n5hBrICVCBSMdtk6tVi5eFWsRqCgblSL9V9kCYi/RFa5+bTM9aQAAAAASUVO
+RK5CYII=</leftIcon>
+    </OctopusIcon>
+  </OctopusIcons>
+</Octopus>
