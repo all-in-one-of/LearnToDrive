@@ -5,7 +5,7 @@
     <IconProperties IconHueShift="210" IconSaturation="1" />
   </ColorProperties>
   <ShapeProperties roundness="5" width="100" height="24" />
-  <LayoutProperties xPosMod="0.75" yPosMod="2" radiusMod="130" CRMod="0" />
+  <LayoutProperties xPosMod="1" yPosMod="2" radiusMod="125" CRMod="0" />
   <OctopusTemplate>
     <OctopusProperties isActive="True" previewMode="False" leftIcon="Polygon.png" rightIcon="None" iconOnly="False" buttonText="To Poly">
       <ActionData active="True" type="0">

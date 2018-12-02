@@ -47,33 +47,42 @@
         <Command>max modify mode -- Ensure we are in the modifier panel
 currentMod = ModPanel.GetCurrentObject() -- Get the current modifier
 
-segs = amax(#( {0}, 1 )) -- Never have less than 1 segment
+segs = Abs ({2} as float) -- Never have less than 1 segment
+
+pinch = {0} as float
+if pinch &lt; -100 then pinch = -100
+else if 100 &lt; pinch then pinch = 100
+
+slide = -({1} as float)
+if slide &lt; -100 then slide = -100
+else if 100 &lt; slide then slide = 100
 
 if ClassOf(currentMod) == Edit_Poly then
 (
-	currentMod.connectEdgePinch = {2}
+	currentMod.connectEdgePinch = pinch
 	currentMod.connectEdgeSegments = segs
-	currentMod.connectEdgeSlide = {1}
+	currentMod.connectEdgeSlide = slide
 	currentMod.ButtonOp #ConnectEdges
 )
 else
 (
 	edges = polyop.getEdgeSelection $
-	$.connectEdgePinch = {2}
+	$.connectEdgePinch = pinch
 	$.connectEdgeSegments = segs
-	polyop.setEdgeSelection $ edges
+	$.connectEdgeSlide = slide
+	PolyOp.setEdgeSelection $ edges
 	$.ConnectEdges()
 )
 
 redrawViews();</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
-        <XIntensity>0.005</XIntensity>
-        <YIntensity>0.005</YIntensity>
+        <XIntensity>0.25</XIntensity>
+        <YIntensity>0.25</YIntensity>
         <XStepping>1</XStepping>
         <YStepping>1</YStepping>
         <isXAdaptive>True</isXAdaptive>
-        <isYAdaptive>False</isYAdaptive>
+        <isYAdaptive>True</isYAdaptive>
       </ActionData>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="False" leftIcon="aaa.png" rightIcon="None" iconOnly="False" buttonText="Weld">
@@ -237,18 +246,16 @@ redrawViews() </Command>
       </ActionData>
       <ActionData active="True" type="1">
         <Command>max modify mode
-DisableSceneRedraw()
+--DisableSceneRedraw()
 currentMod = ModPanel.GetCurrentObject()
 
 if {1} &lt; -100 then $.extrusionType = 0
 else if {1} &gt; -100 and {1} &lt; 100 then $.extrusionType = 1
 else $.extrusionType = 2
 
-segs = amax(#( {2}, 1))
+segs = amax(#( (Abs ({2} as float)), 1))
 height = (({0} as float) / segs)
-width = (({2} as float) / segs)
-
-Print currentMod
+width = (({1} as float) / segs)
 
 for i = 1 to segs do
 (
@@ -258,7 +265,9 @@ for i = 1 to segs do
 
 		if selectionLevel == #Face then
 		(
+			Print "face"
 			currentMod.extrudeFaceHeight = height
+			currentMod.extrudeFaceType = 1
 			currentMod.ButtonOp #ExtrudeFace
 		)
 		else if selectionLevel == #Edge then
@@ -277,6 +286,7 @@ for i = 1 to segs do
 	else
 	(
 		selectionLevel = $.GetEPolySelLevel()
+		$.extrusionType = 1
 		
 		if selectionLevel == #Face then
 		(
@@ -293,7 +303,7 @@ for i = 1 to segs do
 	)
 )
 
-EnableSceneRedraw()
+--EnableSceneRedraw()
 redrawViews()</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
@@ -307,7 +317,19 @@ redrawViews()</Command>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="False" leftIcon="sphere.png" rightIcon="None" iconOnly="False" buttonText="DblSmooth">
       <ActionData active="True" type="0">
-        <Command>Macros.Run "Calvinatorr_Custom" "DoubleSmooth"</Command>
+        <Command>if (selection.count &gt; 0) then
+(
+	max modify mode; --open panel
+	modPanel.AddModToSelection (TurboSmooth()) ui:on;
+		
+	local turbo = modPanel.GetCurrentObject();
+		
+	--smoothing group smooth
+	turbo.iterations = 3;
+	turbo.sepBySmGroups = true;
+		
+	modPanel.AddModToSelection (TurboSmooth()) ui:on;
+)</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
         <XIntensity>1</XIntensity>
