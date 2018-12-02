@@ -2,21 +2,33 @@
 <Octopus>
   <ColorProperties>
     <MouseOver A="255" R="0" G="156" B="255" />
-    <IconProperties IconHueShift="200,637447392981" IconSaturation="1" />
+    <IconProperties IconHueShift="200637447392981" IconSaturation="1" />
   </ColorProperties>
-  <ShapeProperties roundness="4" width="160" height="24" />
-  <LayoutProperties xPosMod="0,65" yPosMod="2" radiusMod="140" CRMod="0" />
+  <ShapeProperties roundness="4" width="120" height="24" />
+  <LayoutProperties xPosMod="0.75" yPosMod="2" radiusMod="140" CRMod="0" />
   <OctopusTemplate>
     <OctopusProperties isActive="True" previewMode="True" leftIcon="viewZoomExtent.png" rightIcon="None" iconOnly="False" buttonText="Zoom Extents">
       <ActionData active="True" type="0">
         <Command>actionMan.executeAction 2077580867 "40029"</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
       <ActionData active="False" type="1">
         <Command></Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="True" leftIcon="viewFront.png" rightIcon="None" iconOnly="False" buttonText="Front View">
@@ -24,11 +36,23 @@
         <Command>actionMan.executeAction 0 "40060"</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
       <ActionData active="False" type="1">
         <Command></Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>0.25</XIntensity>
+        <YIntensity>0.25</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="True" leftIcon="viewBottom.png" rightIcon="None" iconOnly="False" buttonText="Bottom View">
@@ -36,11 +60,23 @@
         <Command>actionMan.executeAction 0 "40063"</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
       <ActionData active="False" type="1">
         <Command></Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>0.1</XIntensity>
+        <YIntensity>0.1</YIntensity>
+        <XStepping>0.1</XStepping>
+        <YStepping>0.1</YStepping>
+        <isXAdaptive>True</isXAdaptive>
+        <isYAdaptive>True</isYAdaptive>
       </ActionData>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="True" leftIcon="viewBack.png" rightIcon="None" iconOnly="False" buttonText="Back View">
@@ -48,11 +84,23 @@
         <Command>actionMan.executeAction 0 "40064"</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
       <ActionData active="False" type="1">
         <Command></Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>0.1</XIntensity>
+        <YIntensity>0.1</YIntensity>
+        <XStepping>0.05</XStepping>
+        <YStepping>0.05</YStepping>
+        <isXAdaptive>True</isXAdaptive>
+        <isYAdaptive>True</isYAdaptive>
       </ActionData>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="True" leftIcon="viewPerspective.png" rightIcon="None" iconOnly="False" buttonText="Perspective User View">
@@ -60,11 +108,23 @@
         <Command>actionMan.executeAction 0 "40182"</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
       <ActionData active="False" type="1">
         <Command></Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="True" leftIcon="viewLeft.png" rightIcon="None" iconOnly="False" buttonText="Left View">
@@ -72,11 +132,23 @@
         <Command>actionMan.executeAction 0 "40061"</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
       <ActionData active="False" type="1">
         <Command></Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>0.5</XIntensity>
+        <YIntensity>0.5</YIntensity>
+        <XStepping>0.05</XStepping>
+        <YStepping>0.05</YStepping>
+        <isXAdaptive>True</isXAdaptive>
+        <isYAdaptive>True</isYAdaptive>
       </ActionData>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="True" leftIcon="viewTop.png" rightIcon="None" iconOnly="False" buttonText="Top View">
@@ -84,11 +156,23 @@
         <Command>actionMan.executeAction 0 "40059"</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
       <ActionData active="False" type="1">
         <Command></Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="True" leftIcon="viewRight.png" rightIcon="None" iconOnly="False" buttonText="Right View">
@@ -96,6 +180,12 @@
         <Command>actionMan.executeAction 0 "40062"</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
+        <XIntensity>1</XIntensity>
+        <YIntensity>1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>1</YStepping>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
       <ActionData active="False" type="1">
         <Command></Command>
@@ -105,6 +195,12 @@ polyop.setFaceSelection $ #{1..numFaces}
 macros.run "rapidTools" "rapidNGonSolver"
 modPanel.addModToSelection (TurboSmooth ()) ui:on
 </CommandPost>
+        <XIntensity>0.5</XIntensity>
+        <YIntensity>0.1</YIntensity>
+        <XStepping>1</XStepping>
+        <YStepping>0.005</YStepping>
+        <isXAdaptive>True</isXAdaptive>
+        <isYAdaptive>True</isYAdaptive>
       </ActionData>
     </OctopusProperties>
   </OctopusTemplate>

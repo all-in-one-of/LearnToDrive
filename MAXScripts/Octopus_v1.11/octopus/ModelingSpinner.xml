@@ -81,8 +81,8 @@ redrawViews();</Command>
         <YIntensity>0.25</YIntensity>
         <XStepping>1</XStepping>
         <YStepping>1</YStepping>
-        <isXAdaptive>True</isXAdaptive>
-        <isYAdaptive>True</isYAdaptive>
+        <isXAdaptive>False</isXAdaptive>
+        <isYAdaptive>False</isYAdaptive>
       </ActionData>
     </OctopusProperties>
     <OctopusProperties isActive="True" previewMode="False" leftIcon="aaa.png" rightIcon="None" iconOnly="False" buttonText="Weld">
@@ -186,8 +186,8 @@ redrawViews()</Command>
         <CommandPost></CommandPost>
         <XIntensity>0.1</XIntensity>
         <YIntensity>0.1</YIntensity>
-        <XStepping>1</XStepping>
-        <YStepping>1</YStepping>
+        <XStepping>0.05</XStepping>
+        <YStepping>0.05</YStepping>
         <isXAdaptive>True</isXAdaptive>
         <isYAdaptive>True</isYAdaptive>
       </ActionData>
@@ -228,7 +228,7 @@ redrawViews() </Command>
         <YIntensity>1</YIntensity>
         <XStepping>1</XStepping>
         <YStepping>1</YStepping>
-        <isXAdaptive>True</isXAdaptive>
+        <isXAdaptive>False</isXAdaptive>
         <isYAdaptive>False</isYAdaptive>
       </ActionData>
     </OctopusProperties>
@@ -246,71 +246,79 @@ redrawViews() </Command>
       </ActionData>
       <ActionData active="True" type="1">
         <Command>max modify mode
---DisableSceneRedraw()
-currentMod = ModPanel.GetCurrentObject()
+DisableSceneRedraw()
 
-if {1} &lt; -100 then $.extrusionType = 0
-else if {1} &gt; -100 and {1} &lt; 100 then $.extrusionType = 1
-else $.extrusionType = 2
-
-segs = amax(#( (Abs ({2} as float)), 1))
-height = (({0} as float) / segs)
-width = (({1} as float) / segs)
-
-for i = 1 to segs do
+try
 (
-	if ClassOf(currentMod) == Edit_Poly then
-	(	
-		selectionLevel = currentMod.GetEPolySelLevel()
+	currentMod = ModPanel.GetCurrentObject()
 
-		if selectionLevel == #Face then
-		(
-			Print "face"
-			currentMod.extrudeFaceHeight = height
-			currentMod.extrudeFaceType = 1
-			currentMod.ButtonOp #ExtrudeFace
-		)
-		else if selectionLevel == #Edge then
-		(
-			currentMod.extrudeEdgeHeight = height
-			currentMod.extrudeEdgeWidth = width
-			currentMod.ButtonOp #ExtrudeEdge
-		)
-		else if selectionLevel == #Vertex then
-		(
-			currentMod.extrudeVertexHeight = height
-			currentMod.extrudeVertexWidth = width
-			currentMod.ButtonOp #ExtrudeVertex
-		)
-	)
-	else
+	if {1} &lt; -100 then $.extrusionType = 0
+	else if {1} &gt; -100 and {1} &lt; 100 then $.extrusionType = 1
+	else $.extrusionType = 2
+
+	segs = amax(#( (Abs ({2} as float)), 1))
+	height = (({0} as float) / segs)
+	width = (({1} as float) / segs)
+
+	for i = 1 to segs do
 	(
-		selectionLevel = $.GetEPolySelLevel()
-		$.extrusionType = 1
-		
-		if selectionLevel == #Face then
-		(
-			PolyOp.ExtrudeFaces $ (polyop.getFaceSelection $) (height)
+		if ClassOf(currentMod) == Edit_Poly then
+		(	
+			selectionLevel = currentMod.GetEPolySelLevel()
+
+			if selectionLevel == #Face then
+			(
+				Print "face"
+				currentMod.extrudeFaceHeight = height
+				currentMod.extrudeFaceType = 1
+				currentMod.ButtonOp #ExtrudeFace
+			)
+			else if selectionLevel == #Edge then
+			(
+				currentMod.extrudeEdgeHeight = height
+				currentMod.extrudeEdgeWidth = width
+				currentMod.ButtonOp #ExtrudeEdge
+			)
+			else if selectionLevel == #Vertex then
+			(
+				currentMod.extrudeVertexHeight = height
+				currentMod.extrudeVertexWidth = width
+				currentMod.ButtonOp #ExtrudeVertex
+			)
 		)
-		else if selectionLevel == #Edge then
+		else
 		(
-			-- Put something here
-		)
-		else if selectionLevel == #Vertex then
-		(
-			-- Put something here
+			selectionLevel = $.GetEPolySelLevel()
+			$.extrusionType = 1
+			
+			if selectionLevel == #Face then
+			(
+				PolyOp.ExtrudeFaces $ (polyop.getFaceSelection $) (height)
+			)
+			else if selectionLevel == #Edge then
+			(
+				-- Put something here
+			)
+			else if selectionLevel == #Vertex then
+			(
+				-- Put something here
+			)
 		)
 	)
 )
+catch
+(
+	Print "Base type not Editable_Poly"
+)
 
---EnableSceneRedraw()
+EnableSceneRedraw()
 redrawViews()</Command>
         <CommandPre></CommandPre>
         <CommandPost></CommandPost>
         <XIntensity>0.5</XIntensity>
         <YIntensity>0.5</YIntensity>
-        <XStepping>0.25</XStepping>
-        <YStepping>0.25</YStepping>
+        <XStepping>0.05</XStepping>
+        <YStepping>0.05</YStepping>
         <isXAdaptive>True</isXAdaptive>
         <isYAdaptive>True</isYAdaptive>
       </ActionData>
