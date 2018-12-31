@@ -1,7 +1,0 @@
-name "Edge Loop Regularizer"
-version 1.1
-
-copy "EditablePoly_RegularizeEdgeLoop.mcr" to "$userMacros"
-drop install.ms
-
-clear temp
