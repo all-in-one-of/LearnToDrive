@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Octopus>
+  <ColorProperties>
+    <MouseOver A="255" R="50" G="200" B="255" />
+    <IconProperties IconHueShift="200" IconSaturation="1" />
+  </ColorProperties>
+  <ShapeProperties roundness="2" width="24" height="24" buttonTextSize="12" iconSize="16" />
+  <LayoutProperties xPosMod="1" yPosMod="1.25" radiusMod="45" CRMod="0.5" />
+  <OctopusTemplate>
+    <OctopusProperties isActive="True" previewMode="False" leftIcon="booleanUnion.png" rightIcon="None" iconOnly="True" buttonText="Union">
+      <ActionData active="True" type="0" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command>macros.run "rapidTools" "fastBoolUnion"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+      <ActionData active="False" type="1" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="False" previewMode="False" leftIcon="None" rightIcon="None" iconOnly="True" buttonText="">
+      <ActionData active="True" type="0" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command>macros.run "Axis" "AxismoveAverageHorizontal"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+      <ActionData active="False" type="1" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="False" previewMode="False" leftIcon="None" rightIcon="None" iconOnly="True" buttonText="">
+      <ActionData active="True" type="0" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command>macros.run "Axis" "AxismoveFarBottom"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+      <ActionData active="False" type="1" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="False" previewMode="False" leftIcon="None" rightIcon="None" iconOnly="True" buttonText="">
+      <ActionData active="True" type="0" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command>macros.run "Axis" "AxismoveAverageVertical"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+      <ActionData active="False" type="1" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="False" leftIcon="booleanSubstract.png" rightIcon="None" iconOnly="True" buttonText="Substract">
+      <ActionData active="True" type="0" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command>macros.run "rapidTools" "fastBoolSubstract"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+      <ActionData active="False" type="1" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="False" previewMode="False" leftIcon="None" rightIcon="None" iconOnly="True" buttonText="">
+      <ActionData active="True" type="0" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command>macros.run "Axis" "AxisrotateCounterClockWise"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+      <ActionData active="False" type="1" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="True" previewMode="False" leftIcon="booleanIntersect.png" rightIcon="None" iconOnly="True" buttonText="Intersect">
+      <ActionData active="True" type="0" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command>macros.run "rapidTools" "fastBoolIntersect"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+      <ActionData active="False" type="1" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+    </OctopusProperties>
+    <OctopusProperties isActive="False" previewMode="False" leftIcon="None" rightIcon="None" iconOnly="True" buttonText="">
+      <ActionData active="True" type="0" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command>macros.run "Axis" "AxisrotateClockWise"</Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+      <ActionData active="False" type="1" XIntensity="1" YIntensity="1" XStepping="1" YStepping="1" isXAdaptive="False" isYAdaptive="False" XMin="-100000" XMax="100000" YMin="-100000" YMax="100000" WheelMin="-1000" WheelMax="1000">
+        <Command></Command>
+        <CommandPre></CommandPre>
+        <CommandPost></CommandPost>
+        <CommandIsChecked></CommandIsChecked>
+      </ActionData>
+    </OctopusProperties>
+  </OctopusTemplate>
+  <OctopusIcons>
+    <OctopusIcon leftIconName="booleanUnion.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAB5dJREFU
+WEe1VwtMlmUUPt/3A7+IiKggXlARFEMtryneEJuoaN7wLmLDS1pzbVpaWq2lTZtdXFbapqbTTbem
+m5q3vLVSs8x7UkMIClIgBJHbDz/w9Jz//V26LkOyM87+2/u9zznPOed5X+RRmC+9u0jzcSIxi207
+YaWPz+SlTufwaf7+kTFOZyOz6n8wiz5EpPMrIqv3WtaFqw5H8S0/v+q7gYG1VWFhrvKoqJs3unc/
+vj0mZmFCSEhz89QjshAmvlDk2c8sK/2Kw4FcX1/cdTqBJk2AkBCgUyegXz9gzBhgzpya8pSUk2ti
+Y+MaORzeHf6DEdz5sshrp2y7LIPAhf7+qAgMRF2zZkCLFkC7dsBjjwFxccDUqcDSpcDatcC6db9u
+T0oaY3v3aZBpvV/g3xnbduUy49KmTeHWjNu2Bdq3Bzp2BCIjgZ49gWHDgFmzgOXLgQ8+AHbtAjZv
+zng7MXGA2a0BNoKNdtC2sxS8QjNu3doAdusGPP440KsX8MQTQN++wFNPATNmGAbWrzcBHDigTOwb
+HB7e2Ltl/a2JiL1GZEM6aS8l5R7w6GigTx9gyBAgPt5kre8HDQKGDweSkoBFi4BVq4BNm0wQW7dW
+bhk7drx32/pbH5Hwz207I69RI9S2bGky10wVaNw4YNIkYOJEYOxYk71+n5gIJCcDS5YAq1cbJugZ
+qak7WgcEPFxHzhAZfd7hqC4JCDDZK+1DhxrwmTOBlBRg9mzTeNr9yoi6BqRBLF4MvPgisGwZSpOT
+f4xv1aqld+v62RKR59J8fFDBxvN0utb6Hs3PPAMsWADMm2cab/x4Az5ggCnJyJHA5MnmNwZTmphY
+MDM0NNK7df1shcjKTAbguj8ABdEA5swB5s8H5s41bDz9tAHu3fvPptS+8LJyq2/f4llBQTHerf/Z
+mon4tRcJZqghr4q8nEXRcanYtGkDxMQYEKV4+nRTAqVaM9WMmX0N11SyV1xRUahgw5bzczH9ekTE
+7fH+/l29MA8a58MaxHF7XuSVdSJHN4tc3ymScVAk5zfbhovC41E7burJTLPSZtMGVOpHj/YEVsOx
+LKMi3ma/5LVqhZthYchh4Jn8fDg4+Fofh+Ov8txNJIzavpYSm0uxwQ+k/AY9m17I7Kv4XY2fH6Bl
+UBbujeHgwWYEVf0GDkQdhai8c2f8zjU5wcFI59he5zMX6WfI4Hqnc0cQx9oLa4wHS9QGyzp6zuGo
+yyTIrcaNUcQHebiggg+5+RkKzmCgLDRvbhRQx1HLoUJEd1OGS5l5IcF/4ZrrnJrvKFyn6Yf4/E4f
+n8oZtv2gDvTijG+yrBNXKTIKXEqVc4eGooZ01WqmpA86+0FBBpzr6vjq9q6rZiCu8HCU04u5Pp/f
+ZfM3BT/DtUfJ3i6y9zF9mWXtb+fRNa8pFW+IvHORmeUTvPLegUIKPZn16GEOF81Ug9HMVQu4cQWz
+usv3RaS2kIB59Gy+zyBjlyhYp7mG4oWtloVVIpgvkt7bo2n32RiRuCO2ffs3PdV08w4dDGj//kZo
+1FlXz0hpzZV21lWZKGPQN+lZpDaDwaTRL/P9OQIfY9Z7Cb6R4MsIPlEkmz3Gl/vMSX9d5L1r3KSY
+kdfp5pq1zqyOkqrchAmmy7XJNAh2fx0prmKWJQTKJMBF+mmCfUk/TOcFBVsI+jb9OZFa9tfJ1iL9
+9RLzgEWIBH5qWWezGHm5Zh8RYS4SCQlGYHSuVV6nTTPyqt3OAKsYaDH74Vdme4WARwi0jb5BpIaj
+W7dSpJoXloJRIic6iSzgvYzXiL+xJ0Ui99l2fg7rVaWz3aULEBtrxEWP0tRUo24ahDKhLOh8s9ny
+GXA6Az9DqrcTPEUkj/oxnzWeFi0yKpTXNQL/+7E7WCT6kG0X5bKelRqA1lj1W7NVSdUA1JUJFRkG
+UEtpLeHlQ+f7GgM/zgA2MQAW9xZbu4N36/oZrybRZKAwm5mUafffO2JHjDAlUBb0AJkyxSgc2ang
+RBSwBJkswUU+t58leJcBjHM4sppZFkv9ENZFJHSbZd34ibUs4oY6z54J0K7XPtAm1INl1CiPyrnZ
+hHcYZC6bMI0CpeKyh8+u4+sUX99zwZYV4N26fhYo4vOmyGfnOQW5KkAsQ43e6zQIbUadBh1DZu7m
+dauE2pBHLcgk/Ze4/hRLsJvgbzGISQ7HOw26804SSdpvWVVpHKmbzKqEQbioBW42pJ5m1bx4VHbt
+ijuU13yCZ7H5fqD4nCXoIT6zlcGvsO27LCenrQEWTjGkSh3jNRtp3DSH811AkCKeYHeoiMX0Akpy
+LgPLpNJdJfg3XHeYzbeDz6zlzM8U2d1CxN+75cNbHAfiQx63J7nhZWaVzqnIYiBZZORnlVa66vp5
+Un6Kv+8nuMrrajZfMo/rzjy+vVs1zPS+T9FIel/klwPc+CsCfEugC8z0e7pK69f0I/yeRzU+IvBy
+7XyRn6JEEswu/9FUJmNF4l8S+fITEfduAu2hq57voe/k+40E1UMlVaSKGrKPtPc0Tz9Ca8Mr2HCR
+ufNEvmAwebwLlvNfMddikbJZZGgogXlNm+p3/5H6fxhH1NlWpBMp7s8ax1Pi+vHobsdRI/ajMJE/
+AJeDxnAvkSGrAAAAAElFTkSuQmCC</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon />
+    <OctopusIcon />
+    <OctopusIcon />
+    <OctopusIcon leftIconName="booleanSubstract.png">
+      <leftIcon>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</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon />
+    <OctopusIcon leftIconName="booleanIntersect.png">
+      <leftIcon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAArVJREFU
+WEftlt1LFGEUxp933FVxd1382kzRLNHF0EyREhJJQvwAL1K88MKQpCQSIaRIqNWgGzHErja9yAuJ
+DGwVqTCLjZKCvJAuIkTpokCxlJBCEaV9OrMz/gWNUrA/ODAwczjPPO+ccwYRIkT457FLHAJiDwNx
+aUB0HKCMO/tEG3AqALycBmaeAdMPgOHbQHs94BVBUeZje8dd4OovgDsSlAhJbCnFJaWWnig1eAEo
+iQc083HruQHc3DaLUwozKoqMiSGdTjI+nmtO57dhu727BHCZKdbSCpxf2hWgaUbxhAQyK4ssKCAL
+C8ns7J1XLtf900olm2nWcRY48xbYCr+9zWa8eWYmWVpKNjaSHR1kWxtZUREKJic/PKFUoplqDSfl
+YxsD1lZ1AXY76XKROTlkVRXZ2UmOjJCBANnbS1ZW/h51u2+lWNkpBwHHHeDNnH4EugNutyGgpob0
++cipKXJ+npyZIbu7uZ6Xt9phs5Wb6dbQDFyeAkKfdBccDuP8y8sNB8bHyYUFQ8TQUNiZF253IAuI
+MdP/nlwgbQD48EZc+BwdTaank8XFZFMT2ddHTk6SwSDp95P19Vz2eFaalTpqpltDI9AyCmzOiojl
+XRfKysjWVrKnh+zvJ7u6yNpabng8oX5Nu2SmWkOSWNoO+B+LgPcSK3o3eL1kdTXZ0GC4UVcXdmYz
+MZETmjZ2ALCZ6dZwBEi9Aow/EgGv9eOQQszPJ4uKjNDnQkYGf4pDQaXmvIDTTLUOWUypMn4H78ls
+mBARs9IVOx4PmZJCJiVxW5z5Lu0aBOaPhY3bA2TSxNYAF68Di34R8VTa84tMyA2Jdbn+Kt3yXAQU
+7pWAXWRF59YCPtmY73zAD1lOoUUp/lFEybcylwfIntoHxBFnDnC8WEZGC9DTBwxcA8459vvfIUKE
+CP8hwB94q1EW2qAx0gAAAABJRU5ErkJggg==</leftIcon>
+    </OctopusIcon>
+    <OctopusIcon />
+  </OctopusIcons>
+</Octopus>
